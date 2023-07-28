@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+
+}
+.navbar{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0.5;
+    position: fixed;
+    padding: 8px 15px;
+}
+.navbar ul{
+    padding: 0;
+    list-style-type: none;
+}
+.navbar ul a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+}
+.navbar li{
+    float: left;
+    width: 100px;
+}
+.image{
+    width: 20%;
+    float: left;
+}
+.image img{
+    width: 60%;
+    padding-left: 50%;
+}
+.pages{
+    width: 50%;
+    float: right;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.first-sc{
+    color: #fff;
+    text-align: center;
+    padding-top: 250px;
+}
+.first-sc h1{
+    font-family: 'Alegreya', serif;
+    font-size: 64px;
+    font-weight: 100;
+}
+.first-sc h5{
+font-size: 22px;
+}
+.first-sc p{
+    font-size: 24px;
+    margin-top:10px ;
+    margin-bottom: 10px;
+
+}
+.btn{
+    border-radius: 3px;
+    padding: 17px 30px;
+    margin-top: 10px;  
+    margin-bottom: 50px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold; 
+    border: solid 2px;
+    transition-duration: 0.4s;
+}
+.btn:hover {
+    background-color: #fff;
+    color: black;
+    border-color: #fff;
+  }
+.btn1{
+    border-color: #8e7754;
+    background-color: #8e7754;
+    color: #fff;
+    margin-right: 12px;
+}
+.btn2{
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn3{
+    border: solid 2px;
+   background-color: #fff;
+   padding: 18px 10px;
+   margin-top: 50px;
+   border-radius: 16px;
+   border-color: #fff;
+   background-color: transparent;
+}
+.btn3 img{
+    width: 8px;
+    padding-top: 0px;
+}
+
+.who{
+margin: 50px 50px;
+padding: 60px 60px;
+}
+.who img{
+    width: 40%;
+    float: left;
+}
+.txt{
+    float: left;
+    width: 50%;
+    padding-left: 80px;
+    padding-top: 50px;
+    font-size: large;
+
+}
+.txt h2,p{
+    padding-bottom: 30px;
+}
+.txt p,ul{
+    color: rgb(101, 99, 99);
+}
+.clear-fix{
+    clear: both;
+}
+p,h5,ul{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 100;
+}
+h2{
+    font-family: "Alegreya";
+    font-weight: 100;
+
+}
+.txt ul{
+    padding: 0 20px;
+    
+}
+
+.location{
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 50px 0px;
+    padding: 70px 0px;
+    }
+    .location .txt{
+        width: 40%;
+        padding-top: 10%;
+        padding-left: 8%;
+        font-size: 17px;
+    }
+    .location img{
+        width: 40%;
+        float: right;
+        padding-right: 8%;
+    }
+
+    .baking{
+        text-align: center;
+        font-family: 'Alegreya', serif;
+
+    }
+    .square{
+        width: 25%;
+        float: left;
+        padding-top: 2%;
+        padding-bottom: 5%;
+    }
+    .baking img{
+        width: 100%;
+        padding-bottom: 10%;
+    }
+    .baking span{
+        font-size: 30px;
+    }
+    .baking h3{
+        font-size: 20px;
+        padding-bottom: 10%;
+        font-weight: 100;
+    }
+    .baking p{
+        color: rgb(138, 135, 135);
+    }
+    .sc1{
+        padding-left: 9.5%;
+    }
+    .sc2{
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .contact{
+        width: 100%;
+        background-color: whitesmoke;
+        padding-bottom: 3%;
+    }
+    .contxt{
+        width: 35%;
+        float: left;
+        padding-left: 10%;
+        padding-top: 150px ;
+        font-weight: 400;
+        font-size: 17px ;
+    }
+    .contxt p {
+        color: #686868;
+    }
+    .contxt h2{
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    .contxt ul{
+        padding-left: 3%;
+    }
+    .conbtn{
+        width: 30%;
+        float: right;
+        padding: 50px 150px;
+        
+    }
+    .conbtn button{
+        width: 60%;
+        padding: 200px 250px;
+        background-image: url(images/tall-map.png);
+        background-position: center center;
+    }
+
+    .info{
+        width: 100%;
+        background-color: #403d38;
+        padding-bottom: 5%;
+    }
+    .info h3{
+        padding-top: 30%;
+        padding-bottom: 10%;
+        font-weight: 100;
+        color: #fff;
+    }
+    .info p,ul{
+        color: #838181;
+    }
+    .info ul{
+        list-style-type: none;
+    }
+
+    .infodetails{
+        width: 16.25%;
+        float: left;
+        font-size: 16px;
+    }
+    .about{
+        margin-left: 10%;
+    }
+    .wyspec{
+        margin-left: 5%;
+    }
+    .openh{
+        margin-left: 5%;
+    }
+    .contdet{
+        margin-right: 10%;
+        margin-left: 5%;
+        background-image: url(images/contact-details-map.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .contdet ul{
+        list-style-type: circle;
+    }
+    .infodetails .brdr{
+        background-color: gray;
+        width: 100%;
+        height: 1px;
+        margin: 15px auto;
+        opacity: 0.11;
+    }
+
+    .end{
+        width: 100%;
+        background-color: #353330;
+    }
+    .endcontent{
+        width: 20%;
+        padding: 50px 40%;
+        text-align: center;
+        color: #838181;
+    }
+    .endcontent img{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .endcontent button{
+        width: 20%;
+        padding: 10%;
+        margin-right: 10px;
+        border-radius: 50%;
+        border: none;
+        background-position: center center;
+        background-size: cover;
+    }
+    .endbtn1{
+        background-image: url(images/facebook.jpg);
+    }
+    .endbtn2{
+        background-image: url(images/google.jpg);
+    }
+    .endbtn3{
+        background-image: url(images/linkedin2.png);
+    }
+    .endbtn4{
+        background-image: url(images/twitter.jpg);
+    }
